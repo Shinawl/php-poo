@@ -28,6 +28,31 @@ class Todo {
 class ToDoList
 {
 
+    public function __construct(
+        public string $todos,
+    )
+    {
+    }
+
+    public function showCompleted(): self
+    {
+        return $this;
+    }
+
+    public function showNotCompleted(): self
+    {
+        return $this;
+    }
+
+    public function setAllCompleted(): self
+    {
+        return $this;
+    }
+
+    public function addTodo(Todo $todo): self
+    {
+        return $this;
+    }
 }
 
 $todo1 = new Todo(
