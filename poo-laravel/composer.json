@@ -1,0 +1,9 @@
+{
+    "name": "tompe/poo-laravel",
+    "autoload": {
+        "psr-4": {
+            "Tompe\\PooLaravel\\": "src/"
+        }
+    },
+    "require": {}
+}
