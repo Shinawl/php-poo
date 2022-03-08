@@ -1,5 +1,8 @@
 <?php
 
+use Tompe\Cours\Todo\Todo;
+use Tompe\Cours\Todo\DateTime;
+
 class todoList
 {
     public array $todos = [];

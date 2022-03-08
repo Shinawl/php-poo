@@ -1,8 +1,11 @@
 <?php
 
+namespace Tompe\Cours\Todo;
+
+use DateTime;
+
 class Todo
 {
-
     public ?DateTime $completed_at = null;
 
     public function __construct(
